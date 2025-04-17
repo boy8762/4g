@@ -63,7 +63,7 @@ const Page = ({ params }: any) => {
           {player === 1 && (
             <iframe
               // src={`https://autoembed.to/movie/tmdb/${params.id}`}
-              src={`https://www.2embed.cc/embed/${params.id}`}
+              src={`https://Letsembed.cc/embed/movie/?id=${params.id}`}
               width="100%"
               height="100%"
               allowFullScreen
@@ -72,7 +72,61 @@ const Page = ({ params }: any) => {
           )}
           {player === 2 && (
             <iframe
-              src={`https://autoembed.co/movie/tmdb/${params.id}`}
+              src={`https://vidzee.wtf/movie/${params.id}`}
+              width="100%"
+              height="100%"
+              allowFullScreen
+              className="full"
+            />
+          )}
+          {player === 2 && (
+            <iframe
+              src={`https://vidzee.wtf/movie/multi.php?id=${params.id}`}
+              width="100%"
+              height="100%"
+              allowFullScreen
+              className="full"
+            />
+          )}
+         {player === 2 && (
+            <iframe
+              src={`https://iframe.pstream.org/media/tmdb-movie-${params.id}`}
+              width="100%"
+              height="100%"
+              allowFullScreen
+              className="full"
+            />
+          )}
+            {player === 2 && (
+            <iframe
+              src={`https://vidsrc.rip/embed/movie/${params.id}`}
+              width="100%"
+              height="100%"
+              allowFullScreen
+              className="full"
+            />
+          )}
+          {player === 2 && (
+            <iframe
+              src={`https://vidjoy.pro/embed/movie/${params.id}`}
+              width="100%"
+              height="100%"
+              allowFullScreen
+              className="full"
+            />
+          )}
+           {player === 2 && (
+            <iframe
+              src={`https://111movies.com/movie/${params.id}`}
+              width="100%"
+              height="100%"
+              allowFullScreen
+              className="full"
+            />
+          )}
+           {player === 2 && (
+            <iframe
+              src={`https://vidlink.pro/movie/${params.id}`}
               width="100%"
               height="100%"
               allowFullScreen
