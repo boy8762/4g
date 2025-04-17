@@ -79,7 +79,7 @@ const Page = ({ params }: any) => {
               className="full"
             />
           )}
-          {player === 2 && (
+          {player === 3 && (
             <iframe
               src={`https://vidzee.wtf/movie/multi.php?id=${params.id}`}
               width="100%"
@@ -88,7 +88,7 @@ const Page = ({ params }: any) => {
               className="full"
             />
           )}
-         {player === 2 && (
+         {player === 4  && (
             <iframe
               src={`https://iframe.pstream.org/media/tmdb-movie-${params.id}`}
               width="100%"
@@ -97,7 +97,7 @@ const Page = ({ params }: any) => {
               className="full"
             />
           )}
-            {player === 2 && (
+            {player === 5 && (
             <iframe
               src={`https://vidsrc.rip/embed/movie/${params.id}`}
               width="100%"
@@ -106,7 +106,7 @@ const Page = ({ params }: any) => {
               className="full"
             />
           )}
-          {player === 2 && (
+          {player === 6 && (
             <iframe
               src={`https://vidjoy.pro/embed/movie/${params.id}`}
               width="100%"
@@ -115,7 +115,7 @@ const Page = ({ params }: any) => {
               className="full"
             />
           )}
-           {player === 2 && (
+           {player === 7 && (
             <iframe
               src={`https://111movies.com/movie/${params.id}`}
               width="100%"
@@ -124,7 +124,7 @@ const Page = ({ params }: any) => {
               className="full"
             />
           )}
-           {player === 2 && (
+           {player === 8 && (
             <iframe
               src={`https://vidlink.pro/movie/${params.id}`}
               width="100%"
